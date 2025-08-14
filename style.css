@@ -1,0 +1,492 @@
+/* Geral */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.botao_flutuante {
+  position: fixed;
+  z-index: 1;
+  bottom: 50px;
+  right: 100px;
+}
+
+.botao_flutuante a {
+  color: #ffff;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 25px;
+  background-color: #25d366;
+  border-radius: 10px;
+}
+
+.botao_flutuante a:hover {
+  background-color: #25d399;
+}
+
+.botao_flutuante img {
+  width: 20px;
+  margin-left: 5px;
+}
+
+/* Topo */
+
+.topo {
+  background-image: url("img/banner-topo.jpg");
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+  width: calc(100vw - 180px);
+  height: auto;
+  color: #3c184e;
+  padding: 120px 80px;
+}
+
+.topo-container {
+  max-width: 1024px;
+  text-align: center;
+  margin: 0 auto;
+  box-shadow: 0 8px 32px #1f26875e;
+  border-radius: 10px;
+  background-color: #ffffffc4;
+  padding: 40px;
+  margin: 70px auto 0;
+}
+
+.topo-container p {
+  font-size: 60px;
+  margin: 0 0 40px;
+  font-weight: 800;
+}
+
+.topo-container div {
+  width: 200px;
+  margin: 0 auto;
+}
+
+.topo-container a {
+  color: #ffff;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 25px;
+  background-color: #3c184e;
+  border-radius: 10px;
+}
+
+.topo-container a:hover {
+  background-color: #3c184ebb;
+}
+
+.topo-container img {
+  width: 20px;
+  margin-left: 5px;
+}
+
+.logotipo {
+  max-width: 250px;
+}
+
+.logotipo img {
+  width: 30px;
+  margin-right: 5px;
+}
+
+.logotipo span {
+  font-size: 35px;
+  margin: 0 0 5px;
+}
+
+.logotipo p {
+  font-size: 14px;
+  text-align: center;
+}
+
+/* Serviços */
+
+.servicos {
+  width: calc(100vw - 180px);
+  padding: 120px 80px;
+  color: #3c184e;
+}
+
+.servicos h3 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 45px;
+}
+
+.servicos .texto {
+  max-width: 800px;
+  text-align: justify;
+  margin: 0 auto;
+}
+
+.servicos li {
+  margin-bottom: 20px;
+  list-style-type: square;
+}
+
+.servicos li span {
+  font-weight: 800;
+  font-style: italic;
+}
+
+.texto {
+  padding-bottom: 50px;
+}
+
+.pai_images {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 1200px;
+  white-space: nowrap;
+  overflow: auto;
+  padding-bottom: 10px;
+}
+.pai_images::-webkit-scrollbar {
+  height: 10px;
+}
+
+.pai_images::-webkit-scrollbar-track {
+  background: #3c184e55;
+  border-radius: 10px;
+}
+
+.pai_images::-webkit-scrollbar-thumb {
+  background: #3c184e;
+  border-radius: 10px;
+}
+
+.images {
+  display: inline-block;
+  padding: 0 20px;
+  margin-bottom: 0;
+}
+
+.images img {
+  border-radius: 5px;
+  box-shadow: 3px 6px 10px 6px #0000005c;
+}
+
+/* Faixas */
+
+.faixa {
+  background-image: url("img/banner-topo.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.opacidade {
+  padding: 120px 80px;
+  color: #ffff;
+  text-align: center;
+  background-color: rgba(60, 24, 78, 0.5);
+}
+
+.faixa-container {
+  margin: 0 auto;
+  max-width: 800px;
+  font-size: 40px;
+}
+
+.faixa-container img {
+  width: 50px;
+  margin: 50px 20px 0;
+}
+
+.faixa-container span {
+  font-style: italic;
+  font-weight: 700;
+}
+
+.faixa a:hover {
+  border-left: 1px solid #ffff;
+  border-bottom: 1px solid #ffff;
+  border-radius: 10px;
+}
+
+/* Marcas */
+
+.marcas {
+  padding: 120px 80px;
+  text-align: center;
+  font-size: 36px;
+  color: #3c184e;
+}
+
+.marcas-container {
+  margin: 45px auto 0;
+  padding: 0 100px;
+  max-width: 800px;
+}
+
+.fileira-1,
+.fileira-2,
+.fileira-3 {
+  margin: 15px;
+}
+
+.fileira-1 img,
+.fileira-2 img,
+.fileira-3 img {
+  width: 148px;
+  margin: 0 15px;
+}
+
+/* Localidade */
+
+.local {
+  padding: 120px 80px;
+  text-align: center;
+  color: #3c184e;
+}
+
+.local h3 {
+  font-size: 36px;
+  margin: 0 0 45px;
+}
+
+.local p {
+  font-size: 20px;
+  margin: 0 0 45px;
+}
+
+.local iframe {
+  width: 60%;
+  min-width: 450px;
+  height: calc(100vh - 450px);
+  min-height: 150px;
+  border-radius: 0 20px 0 20px;
+  box-shadow: 3px 8px 5px #0000005c;
+}
+
+/* Rodapé */
+
+footer {
+  background-color: #3c184e;
+  padding: 10px 0;
+}
+
+footer p {
+  font-size: 12px;
+  text-align: center;
+  color: #ffff;
+}
+
+footer a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+}
+
+footer a:hover {
+  color: #bbb;
+}
+
+/* max-width: 600px */
+@media (max-width: 600px) {
+  /* Botão fixo */
+  .botao_flutuante {
+    position: fixed;
+    z-index: 1;
+    bottom: 30px;
+    right: 20px;
+  }
+
+  .botao_flutuante a {
+    color: #ffff;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 10px;
+    background-color: #25d366;
+    border-radius: 10px;
+  }
+
+  .botao_flutuante span {
+    display: none;
+  }
+
+  .botao_flutuante a:hover {
+    background-color: #25d399;
+  }
+
+  .botao_flutuante img {
+    width: 20px;
+    margin-left: 0px;
+  }
+  /* Topo */
+  .topo {
+    width: 100%;
+    height: calc(100vh - 100px);
+    padding: 60px 40px;
+    width: calc(100vw - 95px);
+  }
+
+  .logotipo {
+    justify-items: center;
+    margin: 0 auto;
+  }
+
+  .logotipo span {
+    font-size: 36px;
+    margin: 0 0 5px;
+  }
+
+  .logotipo p {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .topo-container {
+    text-align: center;
+    margin: 0 auto;
+    box-shadow: 0 8px 32px #1f26875e;
+    border-radius: 10px;
+    background-color: #ffffffc4;
+    padding: 20px;
+    margin: 40px 0;
+  }
+
+  .topo-container div {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .topo-container div {
+    display: inline-block;
+  }
+
+  .topo-container p {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+
+  .topo-container a {
+    color: #ffff;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 25px;
+    background-color: #3c184e;
+    border-radius: 10px;
+  }
+
+  .topo-container a:hover {
+    background-color: #3c184ebb;
+  }
+
+  .topo-container img {
+    width: 14px;
+    margin-left: 5px;
+  }
+
+  /* Serviços */
+
+  .servicos {
+    width: calc(100vw - 95px);
+    padding: 60px 40px;
+    color: #3c184e;
+  }
+
+  .servicos h3 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 45px;
+  }
+
+  .servicos .texto {
+    max-width: 800px;
+    text-align: justify;
+    margin: 0 auto;
+  }
+
+  .servicos li {
+    margin-bottom: 20px;
+    list-style-type: square;
+  }
+
+  .servicos li span {
+    font-weight: 800;
+    font-style: italic;
+  }
+
+  .texto {
+    padding-bottom: 50px;
+  }
+
+  /* Faixas */
+
+  .opacidade {
+    padding: 60px 40px;
+  }
+
+  .faixa-container {
+    margin: 0 auto;
+    max-width: 800px;
+    font-size: 24px;
+  }
+
+  .faixa-container img {
+    width: 40px;
+    margin: 50px 20px 0;
+  }
+
+  /* Marcas */
+
+  .marcas {
+    padding: 20px 40px;
+    text-align: center;
+    color: #3c184e;
+  }
+
+  .marcas h3 {
+    font-size: 28px;
+  }
+
+  .marcas-container {
+    margin: 45px auto;
+    padding: 0;
+    max-width: 800px;
+  }
+
+  .fileira-1,
+  .fileira-2,
+  .fileira-3 {
+    margin: 0;
+  }
+
+  .fileira-1 img,
+  .fileira-2 img,
+  .fileira-3 img {
+    width: 30vw;
+    margin: 0 20px;
+  }
+
+  /* Local */
+  .local {
+    padding: 20px 40px;
+    text-align: center;
+    color: #3c184e;
+  }
+
+  .local h3 {
+    font-size: 28px;
+    margin: 0 0 25px;
+  }
+
+  .local p {
+    font-size: 20px;
+    margin: 0 0 45px;
+  }
+
+  .local iframe {
+    min-width: 70vw;
+  }
+}
