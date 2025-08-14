@@ -289,7 +289,7 @@ footer a:hover {
 }
 
 /* max-width: 600px */
-@media (max-width: 600px) {
+@media (max-width: 790px) {
   /* Botão fixo */
   .botao_flutuante {
     position: fixed;
@@ -490,3 +490,4 @@ footer a:hover {
     min-width: 70vw;
   }
 }
+
